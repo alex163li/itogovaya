@@ -18,7 +18,7 @@ else
 void FillArrayRandom(string[] arr)
 {
     Random rand = new Random();
-    string AllSymbol = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!$%&";
+    string AllSymbol = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!$&";
     for (int i = 0; i < size; i++)
     {
         int randElemSize = rand.Next(1,7);
