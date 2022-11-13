@@ -5,6 +5,17 @@ Console.WriteLine($"Введите набор символов, означающ
 FillArray(arrayOne);
 Console.Clear();
 PrintArray(arrayOne);
+Console.WriteLine();
+Console.WriteLine($"Новый массив, содержащий элементы, размер которых меньше либо равен {n}:");
+if (GetSizeSecondArray(arrayOne) == 0)
+{
+    Console.WriteLine("искомых элементов массива не найдено");
+}
+else
+{
+    string[] arrayTwo = TransferElements(arrayOne);
+    PrintArray(arrayTwo);
+}
 
 void FillArray (string[] arr)
 {
@@ -16,15 +27,16 @@ void FillArray (string[] arr)
 
 void PrintArray (string[] arr)
 {
+    int arrLendth = arr.Length;
     Concole.Write ("[ ");
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < arr.Length; i++)
     {
         Concole.Write (arr[i] + " ");
     }
     Concole.Write ("]");
 }
 
-void GetSizeSecondArray(string[] arr)
+int GetSizeSecondArray(string[] arr)
 {
     int secondSize = 0;
     for (int i = 0; i < size; i++)
@@ -34,4 +46,19 @@ void GetSizeSecondArray(string[] arr)
             secondSize++;
         }
     }
+    return secondSize; 
+}
+
+string[] TransferElements(string[] arr)
+{
+    string[] arrayTwo = new string[GetSizeSecondArray(arrayOne)];
+    for (int i = 0, j = 0; i < size ; i++)
+    {
+        if(arr[i].Length <= n)
+        {
+            arrayTwo[j] = arr[i];
+            j++;
+        }
+    }
+    return arrayTwo ; 
 }
