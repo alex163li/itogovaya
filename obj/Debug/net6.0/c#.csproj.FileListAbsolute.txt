@@ -1,0 +1,15 @@
+/Users/m1/Desktop/GeekBrains/дз/c#/obj/Debug/net6.0/c#.csproj.AssemblyReference.cache
+/Users/m1/Desktop/GeekBrains/дз/c#/obj/Debug/net6.0/c#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/m1/Desktop/GeekBrains/дз/c#/obj/Debug/net6.0/c#.AssemblyInfoInputs.cache
+/Users/m1/Desktop/GeekBrains/дз/c#/obj/Debug/net6.0/c#.AssemblyInfo.cs
+/Users/m1/Desktop/GeekBrains/дз/c#/obj/Debug/net6.0/c#.csproj.CoreCompileInputs.cache
+/Users/m1/Desktop/GeekBrains/дз/c#/bin/Debug/net6.0/c#
+/Users/m1/Desktop/GeekBrains/дз/c#/bin/Debug/net6.0/c#.deps.json
+/Users/m1/Desktop/GeekBrains/дз/c#/bin/Debug/net6.0/c#.runtimeconfig.json
+/Users/m1/Desktop/GeekBrains/дз/c#/bin/Debug/net6.0/c#.dll
+/Users/m1/Desktop/GeekBrains/дз/c#/bin/Debug/net6.0/c#.pdb
+/Users/m1/Desktop/GeekBrains/дз/c#/obj/Debug/net6.0/c#.dll
+/Users/m1/Desktop/GeekBrains/дз/c#/obj/Debug/net6.0/refint/c#.dll
+/Users/m1/Desktop/GeekBrains/дз/c#/obj/Debug/net6.0/c#.pdb
+/Users/m1/Desktop/GeekBrains/дз/c#/obj/Debug/net6.0/c#.genruntimeconfig.cache
+/Users/m1/Desktop/GeekBrains/дз/c#/obj/Debug/net6.0/ref/c#.dll
