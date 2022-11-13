@@ -2,7 +2,8 @@
 int n = 3;
 string[] arrayOne = new string[size];
 Console.WriteLine($"Введите набор символов, означающих значение строкового элемента массива, {size} раз через enter, без пробелов");
-FillArray(arrayOne);
+//FillArray(arrayOne);
+FillArrayRandom(arrayOne);
 Console.Clear();
 PrintArray(arrayOne);
 Console.WriteLine();
@@ -12,6 +13,20 @@ else
 {
     string[] arrayTwo = TransferElements(arrayOne);
     PrintArray(arrayTwo);
+}
+
+void FillArrayRandom(string[] arr)
+{
+    Random rand = new Random();
+    string AllSymbol = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ!$%&";
+    for (int i = 0; i < size; i++)
+    {
+        int randElemSize = rand.Next(1,7);
+        for (int j = 0; j < randElemSize; j++)
+        {
+            arr[i] += AllSymbol[rand.Next(0,AllSymbol.Length)];
+        }
+    }
 }
 
 void FillArray (string[] arr)
