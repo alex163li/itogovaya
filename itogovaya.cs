@@ -7,10 +7,7 @@ Console.Clear();
 PrintArray(arrayOne);
 Console.WriteLine();
 Console.WriteLine($"Новый массив, содержащий элементы, размер которых меньше либо равен {n}:");
-if (GetSizeSecondArray(arrayOne) == 0)
-{
-    Console.WriteLine("искомых элементов массива не найдено");
-}
+if (GetSizeSecondArray(arrayOne) == 0){Console.WriteLine("искомых элементов массива не найдено");}
 else
 {
     string[] arrayTwo = TransferElements(arrayOne);
@@ -28,12 +25,12 @@ void FillArray (string[] arr)
 void PrintArray (string[] arr)
 {
     int arrLendth = arr.Length;
-    Concole.Write ("[ ");
+    Console.Write ("[ ");
     for (int i = 0; i < arr.Length; i++)
     {
-        Concole.Write (arr[i] + " ");
+        Console.Write (arr[i] + " ");
     }
-    Concole.Write ("]");
+    Console.Write ("]");
 }
 
 int GetSizeSecondArray(string[] arr)
